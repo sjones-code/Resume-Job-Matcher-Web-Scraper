@@ -21,10 +21,12 @@ This project scrapes job descriptions from job listing websites and compares the
 ### Installation
 
 1. Clone this repository: 
+   ```bash
    git clone https://github.com/sjones-code/Resume-Job-Matcher-Web-Scraper.git
    cd Resume-Job-Matcher-Web-Scraper
 
 2. Install Python dependencies:
+   ```bash
    import nltk
    nltk.download('punkt')
    nltk.download('stopwords')
